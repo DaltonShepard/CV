@@ -65,17 +65,18 @@ section h2 {
 ul {
     display: flex;
     flex-direction: column;
-    align-items: auto;
-    font-size: large;
     justify-content: center;
+    font-size: large;
+    align-items: center;
 }
 
 dl {
-    display: grid; 
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 1fr;   
-    justify-content: space-evenly;
+    justify-content: center;
     font-size: large;
+    margin-left: 150px;
 }
 a {
     color: crimson;
@@ -125,4 +126,9 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+section h3 {
+    display: flex;
+    font-family: "Arsenal SC", sans-serif;
+    justify-content: center;
 }
