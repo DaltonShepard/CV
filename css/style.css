@@ -39,7 +39,7 @@ footer {
 }
 .splash img {
     display: flex;
-    margin-left: 410px;
+    margin-left: 900px;
     padding: 5px;
     border: 3px dotted black; 
     border-radius: 30px 30px 30px 30px;   
@@ -95,8 +95,9 @@ a:hover {
     border-color: black;
 }
 .projectimg {
+    display: flex;
     margin-top: 10px;
-    margin-left: 70px;
+    margin-left: 225px;
     border-radius: 50px;
 }
 .card {
