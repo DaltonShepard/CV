@@ -30,6 +30,12 @@ footer {
     padding: 10px;
     justify-content: center;
 }
+.splash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .splash h1 {
     display: flex;
     font-family: "Arsenal SC", sans-serif;
@@ -39,7 +45,6 @@ footer {
 }
 .splash img {
     display: flex;
-    margin-left: 900px;
     padding: 5px;
     border: 3px dotted black; 
     border-radius: 30px 30px 30px 30px;   
@@ -97,10 +102,13 @@ a:hover {
 .projectimg {
     display: flex;
     margin-top: 10px;
-    margin-left: 225px;
     border-radius: 50px;
 }
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 12px;
     background-color: cadetblue;
     box-shadow: 0 8px 12px black;
