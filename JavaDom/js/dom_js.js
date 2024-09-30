@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', (event) => {
     const greetingElement = document.getElementById('greeting');
     const amButton = document.getElementById('am');
     const pmButton = document.getElementById('pm');
@@ -10,9 +9,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     pmButton.addEventListener('click', () => {
         greetingElement.textContent = 'Good Night!';
     });
-});
 
-document.addEventListener('DOMContentLoaded', (event) => {
     const redButton = document.getElementById('red');
     const greenButton = document.getElementById('green');
     const blueButton = document.getElementById('blue');
@@ -51,4 +48,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
             list.removeChild(newLi);
         });
     });
-});
