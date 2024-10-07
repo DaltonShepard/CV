@@ -39,18 +39,19 @@ getSuperHeroes(superHeroes)
     console.log(superHeroes);
 })
 .then(() => {
-    superHeroes.map((superhero) => {
+    let map = [...superHeroes];
+    map.map((superhero) => {
         if (superhero.power > 90) {
-            return superhero.rank = 'Top Tier';
+            return  superhero.rank = 'Top Tier';
         } else {
             return superhero.rank = 'Second Tier';
         }
     })
     console.log('Rank array:');
-    console.log(superHeroes);
+    console.log(map);
 })
 .then(() => {
-    const marvel = superHeroes.filter((superhero) => {
+    let marvel = superHeroes.filter((superhero) => {
         return superhero.universe == 'Marvel';
     })
     console.log('Marvel array:');
