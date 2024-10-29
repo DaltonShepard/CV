@@ -4,3 +4,6 @@ console.log(a);
 a = "Hi Guys!";
 console.log(a);
 console.log(`typeof: ${typeof(a)} value: ${a}`);
+a.addEventListner("click", () => {
+    console.log("Button clicked");
+});

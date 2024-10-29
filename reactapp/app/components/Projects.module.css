@@ -1,0 +1,28 @@
+.threecol {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px;
+    border-radius: 10px;
+    border-color: black;
+  }
+  .projectimg {
+    display: flex;
+    margin-top: 10px;
+    border-radius: 50px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    background-color: cadetblue;
+    box-shadow: 0 8px 12px black;
+  }
+  .ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    align-items: center;
+  }

@@ -1,0 +1,8 @@
+.dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;   
+    justify-content: center;
+    font-size: large;
+    margin-left: 150px;
+  }

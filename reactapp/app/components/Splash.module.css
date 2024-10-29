@@ -1,0 +1,26 @@
+.splash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .splash h1 {
+    display: flex;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 30px;
+    color: #800000;
+    justify-content: center;
+  }
+  .splash img {
+    display: flex;
+    padding: 5px;
+    border: 3px dotted black; 
+    border-radius: 30px 30px 30px 30px;   
+  }
+  .splash p {
+    display: flex;
+    justify-content: center;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: bold;
+  }
