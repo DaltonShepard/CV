@@ -3,7 +3,6 @@ import { useState } from 'react';
 import Card from './Card'; 
 import Button from './Button';
 import styles from './Signup.module.css'; 
-import { useRouter } from 'next/navigation';
 
 interface User {
   name: string;
@@ -50,6 +49,10 @@ export default function Signup({ onSignup }: SignupProps) {
       password: enteredPassword,
       imageUrl: enteredImageLink,
     };
+    if ((newUser.name = '') || (newUser.password = '') || (newUser.email = '') || (newUser.username = '')) {
+      console.log('Please fill out all fields');
+      return;
+    }
     console.log(newUser);
     onSignup(newUser);
     setEnteredName('');
