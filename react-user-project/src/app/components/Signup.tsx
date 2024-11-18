@@ -49,8 +49,8 @@ export default function Signup({ onSignup }: SignupProps) {
       password: enteredPassword,
       imageUrl: enteredImageLink,
     };
-    if ((newUser.name = '') || (newUser.password = '') || (newUser.email = '') || (newUser.username = '')) {
-      console.log('Please fill out all fields');
+    if ((newUser.password == '') || (newUser.username == '')) {
+      alert('Please fill out the username and password fields');
       return;
     }
     console.log(newUser);
